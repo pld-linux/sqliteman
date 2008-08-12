@@ -2,7 +2,7 @@ Summary:	Manager for sqlite - Sqlite Databases Made Easy
 Summary(pl.UTF-8):	Zarządca baz sqlite
 Name:		sqliteman
 Version:	1.2.0
-Release:	1
+Release:	2
 # src is GPLv2+, icons are LGPLv2+
 License:	GPLv2+ and LGPLv2+
 Group:		Applications/Databases
