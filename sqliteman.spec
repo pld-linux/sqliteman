@@ -11,7 +11,10 @@ Source0:	http://dl.sourceforge.net/sqliteman/%{name}-%{version}.tar.bz2
 URL:		http://www.sqliteman.com/
 BuildRequires:	QtSql-devel
 BuildRequires:	QtXml-devel
+BuildRequires:	cmake
 BuildRequires:	qscintilla2-devel
+BuildRequires:	qt4-build
+BuildRequires:	qt4-qmake
 BuildRequires:	rpmbuild(macros) >= 1.293
 Requires:	QtSql-sqlite3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
