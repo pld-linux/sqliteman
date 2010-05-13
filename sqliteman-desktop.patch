@@ -1,0 +1,11 @@
+--- sqliteman-1.2.1/sqliteman.desktop~	2009-03-02 18:47:55.000000000 +0100
++++ sqliteman-1.2.1/sqliteman.desktop	2010-05-13 13:51:19.945254419 +0200
+@@ -7,7 +7,7 @@
+ Icon=sqliteman.png
+ Exec=sqliteman %f
+ Terminal=false
+-Categories=Office;Database
++Categories=Database;System;
+ StartupNotify=true
+ MimeType=application/x-sqlite3
+ 
