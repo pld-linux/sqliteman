@@ -4,13 +4,13 @@
 Summary:	Manager for sqlite - Sqlite Databases Made Easy
 Summary(pl.UTF-8):	Zarządca baz sqlite
 Name:		sqliteman
-Version:	1.2.1
-Release:	3
+Version:	1.2.2
+Release:	1
 # src is GPLv2+, icons are LGPLv2+
 License:	GPLv2+ and LGPLv2+
 Group:		Applications/Databases
 Source0:	http://dl.sourceforge.net/sqliteman/%{name}-%{version}.tar.bz2
-# Source0-md5:	1ad603d38e4eda63f1386c6ee22a2838
+# Source0-md5:	c8197428739bcd86deaafa8ef267e3cb
 Patch0:		%{name}-desktop.patch
 URL:		http://www.sqliteman.com/
 BuildRequires:	QtCore-devel >= %{qtver}
@@ -61,6 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/sqliteman
-%{_iconsdir}/*.png
+%{_iconsdir}/hicolor/*.png
 %{_desktopdir}/*.desktop
 %{_datadir}/%{name}
